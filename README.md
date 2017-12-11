@@ -1,1 +1,1 @@
-# algs4
+# Algorithms, Part I by Princeton University
