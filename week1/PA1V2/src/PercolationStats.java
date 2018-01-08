@@ -3,9 +3,15 @@ import edu.princeton.cs.algs4.StdStats;
 
 public class PercolationStats {
 
+    /**
+     *
+     */
     private static final double CONFIDENCE_95 = 1.96;
+
     private final int trials;
+
     private final double mean;
+
     private final double stddev;
 
     /**
