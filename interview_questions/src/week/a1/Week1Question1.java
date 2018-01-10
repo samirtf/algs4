@@ -57,7 +57,7 @@ public class Week1Question1 implements Executable {//NOPMD
               .toString());
           count++;
         }
-        if( -(input[start] + input[end]) > input[i] && start < end) {
+        if( -(input[start] + input[end]) > input[i]) {
           System.out.println(new Formatter().format("\tless\tin[i]:%s\t :: int[start]:%s ::" +
                   " " +
                   "in[end]: %s",
@@ -67,7 +67,7 @@ public class Week1Question1 implements Executable {//NOPMD
               .toString());
           start++;
         }
-        if( -(input[start] + input[end]) <= input[i] && start < end) {
+        if( -(input[start] + input[end]) <= input[i]) {
           System.out.println(new Formatter().format("\thigher\tin[i]:%s\t :: int[start]:%s :: " +
                   "in[end]: %s",
               input[i],
